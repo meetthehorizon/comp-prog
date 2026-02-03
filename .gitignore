@@ -1,3 +1,5 @@
 .gitignore
 *.testcases
 main
+.cph
+.vscode
