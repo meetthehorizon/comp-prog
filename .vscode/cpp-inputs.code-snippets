@@ -1,0 +1,18 @@
+{
+    "Input vector with range-for": {
+        "prefix": "vin",
+        "scope": "cpp",
+        "body": [
+            "for (auto &v : ${1:vec}) cin >> v;"
+        ],
+        "description": "Read elements of a vector using a range-based for loop."
+    },
+    "Input vector of pairs": {
+        "prefix": "vpin",
+        "scope": "cpp",
+        "body": [
+            "for (auto &p : ${1:vp}) cin >> p.first >> p.second;"
+        ],
+        "description": "Read a vector of pairs (first and second of each pair)."
+    }
+}

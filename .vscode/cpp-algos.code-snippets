@@ -1,0 +1,18 @@
+{
+	"Binary Exponentiation": {
+		"prefix": "binpow",
+		"scope": "cpp",
+		"body": [
+			"int binpow(int ${1:a}, int ${2:b}) {",
+			"  int ${3:res} = 1;",
+			"  while (${2:b} > 0) {",
+			"    if (${2:b} & 1) ${3:res} *= ${1:a};",
+			"    ${1:a} *= ${1:a};",
+			"    ${2:b} >>= 1;",
+			"  }",
+			"  return ${3:res};",
+			"}"
+		],
+		"description": "Binary exponentiation (a^b) using int."
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"1D vector of ints": {
+		"prefix": "vi",
+		"scope": "cpp",
+		"body": [
+			"vector<int> ${1:vec}(${2:n});"
+		],
+		"description": "Declare a 1D vector<int> of size n."
+	},
+	"1D vector of strings": {
+		"prefix": "vs",
+		"scope": "cpp",
+		"body": [
+			"vector<string> ${1:vec}(${2:n});"
+		],
+		"description": "Declare a 1D vector<string> of size n."
+	},
+	"Pair of ints": {
+		"prefix": "pi",
+		"scope": "cpp",
+		"body": [
+			"pair<int, int> ${1:p};"
+		],
+		"description": "Declare a pair<int, int>."
+	},
+	"Pair of strings": {
+		"prefix": "ps",
+		"scope": "cpp",
+		"body": [
+			"pair<string, string> ${1:p};"
+		],
+		"description": "Declare a pair<string, string>."
+	},
+	"2D vector of ints": {
+		"prefix": "vii",
+		"scope": "cpp",
+		"body": [
+			"vector<vector<int>> ${1:vec}(${2:n}, vector<int>(${3:m}));"
+		],
+		"description": "Declare a 2D vector<vector<int>> of size n x m."
+	},
+	"2D vector of strings": {
+		"prefix": "vss",
+		"scope": "cpp",
+		"body": [
+			"vector<vector<string>> ${1:vec}(${2:n}, vector<string>(${3:m}));"
+		],
+		"description": "Declare a 2D vector<vector<string>> of size n x m."
+	},
+	"Vector of pair<int, int>": {
+		"prefix": "vpi",
+		"scope": "cpp",
+		"body": [
+			"vector<pair<int, int>> ${1:vp};"
+		],
+		"description": "Declare a vector<pair<int, int>>."
+	},
+	"Vector of pair<string, string>": {
+		"prefix": "vps",
+		"scope": "cpp",
+		"body": [
+			"vector<pair<string, string>> ${1:vp};"
+		],
+		"description": "Declare a vector<pair<string, string>>."
+	},
+}

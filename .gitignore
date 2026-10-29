@@ -2,4 +2,4 @@
 *.testcases
 main
 .cph
-.vscode
+.vscode/settings.json
