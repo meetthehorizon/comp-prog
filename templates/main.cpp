@@ -1,7 +1,6 @@
 /*
 Kshitij Sharma
 Github: meetthehorizon
-Link: $(URL)
 
      /\_/\
     (= ._.)  ~~hoi~~
