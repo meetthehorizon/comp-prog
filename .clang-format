@@ -1,0 +1,59 @@
+# clang-format style for competitive programming.
+# Based on Google, tuned for short, dense CP code (2-space indent, 100 cols).
+---
+Language: Cpp
+Standard: Latest
+BasedOnStyle: Google
+
+# ---- Indentation -----------------------------------------------------------
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+ContinuationIndentWidth: 4
+NamespaceIndentation: None
+IndentCaseLabels: true
+IndentPPDirectives: None
+
+# ---- Line width ------------------------------------------------------------
+ColumnLimit: 100
+
+# ---- Braces and short constructs -------------------------------------------
+BreakBeforeBraces: Attach
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortLambdasOnASingleLine: Inline
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: No
+
+# ---- Operators -------------------------------------------------------------
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: true
+SpaceBeforeParens: ControlStatements
+
+# ---- Pointers and references -----------------------------------------------
+DerivePointerAlignment: false
+PointerAlignment: Left
+ReferenceAlignment: Pointer
+
+# ---- Includes and using declarations ---------------------------------------
+SortIncludes: Never
+IncludeBlocks: Preserve
+SortUsingDeclarations: false
+
+# ---- Comments --------------------------------------------------------------
+ReflowComments: false
+SpacesBeforeTrailingComments: 2
+
+# ---- Alignment -------------------------------------------------------------
+AlignConsecutiveMacros: false
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignTrailingComments: false
+AlignEscapedNewlines: Right
+
+# ---- Misc ------------------------------------------------------------------
+QualifierAlignment: Leave
+InsertNewlineAtEOF: true

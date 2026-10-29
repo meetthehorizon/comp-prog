@@ -1,0 +1,4 @@
+[tools]
+black = "latest"
+clang-format = "latest"
+python = "3.12"
