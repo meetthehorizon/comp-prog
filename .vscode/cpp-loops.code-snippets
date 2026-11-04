@@ -1,0 +1,54 @@
+{
+    "No": {
+        "prefix": "no",
+        "scope": "cpp",
+        "body": [
+            "cout << \"NO\\n\";",
+        ],
+        "description": "Print No in a newline."
+    },
+    "Yes": {
+        "prefix": "yes",
+        "scope": "cpp",
+        "body": [
+            "cout << \"YES\\n\";",
+        ],
+        "description": "Print Yes in a newline."
+    },
+    "Input vector with range-for": {
+        "prefix": "vin",
+        "scope": "cpp",
+        "body": [
+            "for (auto &v : ${1:vec}) cin >> v;"
+        ],
+        "description": "Read elements of a vector using a range-based for loop."
+    },
+    "Input vector of pairs": {
+        "prefix": "vpin",
+        "scope": "cpp",
+        "body": [
+            "for (auto &p : ${1:vp}) cin >> p.first >> p.second;"
+        ],
+        "description": "Read a vector of pairs (first and second of each pair)."
+    },
+    "Range over vector": {
+        "prefix": "forv",
+        "scope": "cpp",
+        "body": [
+            "for (auto ${1:&}v : ${2:vec}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Range-based for loop over a vector."
+    },
+    "Range over vector of pairs": {
+        "prefix": "forvp",
+        "scope": "cpp",
+        "body": [
+            "for (auto ${1:&}[${2:first}, ${3:second}] : ${4:vp}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "Range-based for loop over a vector of pairs."
+    }
+}
